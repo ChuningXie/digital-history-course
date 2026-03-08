@@ -1,1 +1,38 @@
-Freedom on the Move datasets.
+# Freedom on the Move (FOTM) Datasets & Topic Modeling
+
+Welcome to the **Freedom on the Move** folder for our Digital History course. 
+
+This folder contains data derived from the *Freedom on the Move* project, a database of "runaway ads" placed by enslavers in North American newspapers. These advertisements provide crucial, albeit painful, historical insights into the lives and resistance of self-liberating individuals.
+
+## What's in this folder?
+
+Here is a breakdown of the materials provided for your text analysis assignments:
+
+### 1. The Raw Texts (For your own analysis)
+* **`fotm_texts.zip`**: This compressed file contains individual fugitive advertisements, each saved as a separate `.txt` file. 
+* **How to use it:** Please click on the file to download it, and then **extract (unzip)** it on your computer. Having these ads as individual text files makes them perfect for uploading directly into text analysis tools like **Voyant** or **MALLET**for running your own models.
+
+### 2. The MALLET Output (Pre-processed results)
+* **`MALLET-output/` (Folder)**: Topic Modeling is a computational method that identifies clusters of words that frequently appear together across a large collection of texts. I have already run a Topic Modeling analysis on the ads in `fotm_texts.zip` using **MALLET**. 
+* **How to use it:** You can explore the files inside this folder to see what MALLET's algorithm produced. You will find files showing the "keys" (the top words defining each topic) and the "composition" (how much of each topic is present in each specific ad).
+
+---
+
+## How to Download the Data
+1. Click on **`fotm_texts.zip`** in the file list above.
+2. Click the **Download** icon (or the "Download raw file" button) on the right side of the screen.
+3. Once downloaded, **unzip** the folder on your local computer to access the individual text files.
+*(To view the MALLET results, you can simply click into the `MALLET-output` folder and view or download the specific CSV/text files inside.)*
+
+---
+
+**Required Citation Formats for FOTM:**
+This dataset is provided under a **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license. Commercial use is strictly prohibited.
+
+Whenever you reference this dataset, you must use the following formal citations:
+
+**1. To cite the database as a whole (General reference):**
+> *Freedom on the Move: A Database of Fugitives from North American Slavery*, Cornell University, accessed [Date of access], https://app.freedomonthemove.org/.
+
+**2. To cite a specific runaway advertisement (Close reading):**
+> Runaway advertisement for [Name of the Freedom Seeker], *[Name of the Original Newspaper]*, [Publication Date]. *Freedom on the Move* Database, accessed [Date of access].
