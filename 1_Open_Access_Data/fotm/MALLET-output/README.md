@@ -51,6 +51,7 @@ bin\mallet import-dir --input sample-data\fotm_texts --output fotm.mallet --keep
 
 # 2. Train topics (20 topics)
 bin\mallet train-topics --input fotm.mallet --num-topics 20 --optimize-interval 20 --output-topic-keys fotm-keys.txt --output-doc-topics fotm-composition.txt --output-state fotm-state.gz --diagnostics-file diagnostics.xml
+```
 
 **Second Run Commands:**
 ```bash
